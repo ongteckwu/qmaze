@@ -3,7 +3,7 @@ define(['./structfactory', './typechecker', './assert'],
 		var LRUD = new structfactory("L R U D");
 		var test_lrud = new LRUD();
 
-		var Tile = function(reward, qvalues, walls) {
+		var Tile = function(reward, qvalues, walls, x, y) {
 			//default reward
 			this.reward = (typeof reward == "undefined") ? 0 : reward;
 			//default qvalues
@@ -17,7 +17,18 @@ define(['./structfactory', './typechecker', './assert'],
 			//default walls
 			//1 for wall, 0 for nothing
 			if (typeof walls == "undefined") {
-				this.walls = new LRUD(1, 1, 1, 1);
+				if (x == 0 && y == 0) {
+					this.walls = new LRUD(1, 1, 1, 1);
+				}
+				else if (x == 0) {
+					this.walls = new LRUD(0, 1, 1, 1);
+				}
+				else if (y == 0) {
+					this.walls = new LRUD(1, 1, 0, 1);
+				}
+				else {
+					this.walls = new LRUD(0, 1, 0, 1);
+				}
 			}
 			else {
 				assert(typechecker.typecomparer(this.walls, {}), "Walls not an Object.");

@@ -104,6 +104,7 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 					}
 				}
 			}
+
 			return mazeGrid;
 		}
 
@@ -111,8 +112,6 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			var gridheight = Math.floor(canvasheight/mazeGrid.gridsize);
 			var gridwidth = Math.floor(canvaswidth/mazeGrid.gridsize2);
 
-			var color = ['#eeeeee', '#111111', '#222222', '#333333', '#444444', '#555555', '#666666', '#777777', 
-							'#888888', '#eeeeee', "#efefef"];
 			var line_queue = [];
 			for (var i=0; i<mazeGrid.gridsize; i++) {
 				for (var j=0; j<mazeGrid.gridsize2; j++) {
@@ -124,7 +123,7 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 						if (current_grid.walls.hasOwnProperty(wall) && current_grid.walls[wall]) {
 							var line = new createjs.Shape();
 							line.graphics.setStrokeStyle(3)
-									 	 .beginStroke(color[1]);
+									 	 .beginStroke('#222222');
 							//left wall rendering
 							if (wall == "L") {
 								line.graphics.moveTo(gridwidth*j, gridheight*i)

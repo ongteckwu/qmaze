@@ -3,14 +3,13 @@ define(['./structfactory', './typechecker', './assert', './tile'],
 		var LRUD = new structfactory("L R U D");
 		var test_lrud = new LRUD();
 
-		Function.prototype.construct = function(aArgs) {
-			var fConstructor = this, fNewConstr = function() { fConstructor.apply(this, aArgs); };
-			fNewConstr.prototype = fConstructor.prototype;
-			return new fNewConstr();
-		};
+		function applyToConstructor(constructor, argArray) {
+    		var args = [null].concat(argArray);
+    		var factoryFunction = constructor.bind.apply(constructor, args);
+    		return new factoryFunction();
+		}
 
-
-		var Grid = function(gridsize, gridsize2, gridObj, gridArguments) {
+		var Grid = function(gridsize, gridsize2, gridObj) {
 			assert(typechecker.typecomparer(1, gridsize), "Gridsize not a Number");
 
 			if (!typechecker.typecomparer(gridsize, gridsize2))
@@ -28,7 +27,8 @@ define(['./structfactory', './typechecker', './assert', './tile'],
 					for (var j=0; j<g2; j++) {
 						//if gridObj is a func, initialize it
 						if (typeof gridObj == "function") {
-							temp = new self.gridObj();
+							// temp for Tile
+							temp = new gridObj(0, undefined, undefined, i, j);
 							temp_grid.push(temp); //TODO
 
 						}
