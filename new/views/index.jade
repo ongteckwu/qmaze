@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  script(data-main= "javascripts/app" src="javascripts/require.js")
+  link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css",rel="stylesheet")
+
+  div(class="container-fluid mazecontainer")
+    div(class="row")
+      div(class="col-xs-offset-3 col-xs-6")
+        canvas(id="mazeCanvas", width="500", height="500")
+

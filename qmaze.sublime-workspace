@@ -1,0 +1,1146 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max_width"
+			],
+			[
+				"maze",
+				"mazeGenerator"
+			],
+			[
+				"typ",
+				"typechecker"
+			],
+			[
+				"D",
+				"D"
+			],
+			[
+				"maz",
+				"mazeGrid"
+			],
+			[
+				"ma",
+				"mazeGrid"
+			],
+			[
+				"type",
+				"typecomparer"
+			],
+			[
+				"A",
+				"A"
+			],
+			[
+				"data",
+				"dataOfHouse"
+			],
+			[
+				"vector",
+				"vectorOfInt"
+			],
+			[
+				"arra",
+				"arrayOfInt"
+			],
+			[
+				"start",
+				"startTheorem"
+			],
+			[
+				"new",
+				"newTheorems"
+			],
+			[
+				"message",
+				"message_obj"
+			],
+			[
+				"redis",
+				"redis_client"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"thisLevel",
+				"thisLevelDifficulty"
+			],
+			[
+				"thisLevelDiff",
+				"thisLevelDifficultyLevel"
+			],
+			[
+				"thisLev",
+				"thisLevelDifficultyLevel"
+			],
+			[
+				"thisLvel",
+				"thisLevelDifficulty"
+			],
+			[
+				"levelD",
+				"levelDifficultyLevel"
+			],
+			[
+				"level",
+				"levelBreaker"
+			],
+			[
+				"thisLeve",
+				"thisLevelRequirement"
+			],
+			[
+				"this",
+				"thisLevelRequirement"
+			],
+			[
+				"curre",
+				"currentSpeed"
+			],
+			[
+				"bloc",
+				"blockSpeed"
+			],
+			[
+				"current",
+				"currentLevel"
+			],
+			[
+				"alpha",
+				"alphabetCount"
+			],
+			[
+				"alp",
+				"alphabetsObjectQueue"
+			],
+			[
+				"al",
+				"alphabetsObjectQueue"
+			],
+			[
+				"alphabet",
+				"alphabetsQueue"
+			],
+			[
+				"alphabets",
+				"alphabetsObjectQueue"
+			],
+			[
+				"rand",
+				"randomAlpha"
+			],
+			[
+				"have",
+				"haveLost"
+			],
+			[
+				"render",
+				"renderYouLose"
+			],
+			[
+				"color",
+				"colorScheme"
+			],
+			[
+				"alph",
+				"alphabetColours"
+			],
+			[
+				"random",
+				"randomIndex"
+			],
+			[
+				"character",
+				"character_i_in_cache"
+			],
+			[
+				"crea",
+				"create_post_before_all"
+			],
+			[
+				"Facto",
+				"FactoryGirl"
+			],
+			[
+				"befo",
+				"before_each_context_create_post"
+			],
+			[
+				"blo",
+				"blog-post-show"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"cloud",
+				"cloud_scale"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"ba",
+				"bar_percentage"
+			],
+			[
+				"progre",
+				"progress_bar_100"
+			],
+			[
+				"progress",
+				"progressbar"
+			],
+			[
+				"progr",
+				"progress_bar"
+			],
+			[
+				"word",
+				"wordcloud_out"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"clouds",
+				"clouds_cache"
+			],
+			[
+				"cc_af",
+				"cc_after"
+			],
+			[
+				"mu",
+				"multiplier"
+			],
+			[
+				"cc_after",
+				"cc_after_class"
+			],
+			[
+				"st",
+				"stylesheet_link_tag"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"co",
+				"color_scheme"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "new/app.js",
+			"settings":
+			{
+				"buffer_size": 1530,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "doctype html\nhtml\n  head\n    title= title\n    link(rel='stylesheet', href='/stylesheets/style.css')\n  body\n    block content",
+			"file": "new/views/layout.jade",
+			"file_size": 124,
+			"file_write_time": 130644887370000000,
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/views/index.jade",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/public/javascripts/app.js",
+			"settings":
+			{
+				"buffer_size": 1038,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/public/javascripts/utility/qmazealgo.js",
+			"settings":
+			{
+				"buffer_size": 4416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/public/javascripts/utility/create.js",
+			"settings":
+			{
+				"buffer_size": 84508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/public/javascripts/utility/mazegrids.js",
+			"settings":
+			{
+				"buffer_size": 2427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/public/javascripts/utility/tile.js",
+			"settings":
+			{
+				"buffer_size": 816,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/public/javascripts/utility/structfactory.js",
+			"settings":
+			{
+				"buffer_size": 972,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "new/package.json",
+			"settings":
+			{
+				"buffer_size": 373,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"ssjavas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssc",
+				"Set Syntax: C++"
+			],
+			[
+				"ssc++",
+				"Set Syntax: C++"
+			],
+			[
+				"sscpp",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"ssm",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"htmls",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sshaml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"PAC",
+				"Preferences: Browse Packages"
+			],
+			[
+				"REMO",
+				"Package Control: Remove Package"
+			],
+			[
+				"rmeov",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pacage",
+				"Package Control: Discover Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"ssr",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 746.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git",
+			"git branch",
+			"`git branch",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ongteckwu/qmaze",
+		"/Users/ongteckwu/qmaze/new",
+		"/Users/ongteckwu/qmaze/new/node_modules",
+		"/Users/ongteckwu/qmaze/new/public",
+		"/Users/ongteckwu/qmaze/new/public/javascripts",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility",
+		"/Users/ongteckwu/qmaze/new/public/stylesheets",
+		"/Users/ongteckwu/qmaze/new/routes",
+		"/Users/ongteckwu/qmaze/new/views"
+	],
+	"file_history":
+	[
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility/create.js",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility/jquery.js",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility/shuffle.js",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility/assert.js",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility/typechecker.js",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility/structfactory.js",
+		"/Users/ongteckwu/qmaze/new/routes/index.js",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/createjsinit.js",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/require.js",
+		"/Users/ongteckwu/qmaze/new/views/index.jade",
+		"/Users/ongteckwu/qmaze/new/public/javascripts/utility/mazegenerator.js",
+		"/Users/ongteckwu/qmaze/new/views/error.jade",
+		"/Users/ongteckwu/qmaze/index.js",
+		"/Users/ongteckwu/qmaze/package.json",
+		"/Users/ongteckwu/ml/mlclass-ex1/normalEqn.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/normalize.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/gradientDescentMulti.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/gradientDescent.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/computeCost.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/plotData.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/ex1data1.txt",
+		"/Users/ongteckwu/ml/mlclass-ex1/computeCostMulti.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/warmUpExercise.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/ex1.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/featureNormalize.m",
+		"/Users/ongteckwu/ml/mlclass-ex1/ex1_multi.m",
+		"/Users/ongteckwu/teckwu_node/teckwu/index.js",
+		"/Users/ongteckwu/cppstuff/linktest2.cpp",
+		"/Users/ongteckwu/cppstuff/statictest.cpp",
+		"/Users/ongteckwu/cppstuff/linktest.cpp",
+		"/Users/ongteckwu/cppstuff/linktest.h",
+		"/Users/ongteckwu/cppstuff/vectorinit.cpp",
+		"/Users/ongteckwu/cppstuff/arraytovec.cpp",
+		"/Users/ongteckwu/2048/2048/CONTRIBUTING.md",
+		"/Users/ongteckwu/phaser/phaser-examples/gruntfile.js",
+		"/Users/ongteckwu/exercism/python/bob/bob_test.py",
+		"/Users/ongteckwu/exercism/python/bob/README.md",
+		"/Users/ongteckwu/teckwu_node/nodeschool/promise-program.js",
+		"/Users/ongteckwu/test.py",
+		"/Users/ongteckwu/teckwu_node/test_express/package.json",
+		"/Users/ongteckwu/teckwu_node/teckwu/node_modules/redis/index.js",
+		"/Users/ongteckwu/teckwu_node/teckwu/javascript/ejs.js",
+		"/Users/ongteckwu/teckwu_node/teckwu/index.html",
+		"/Users/ongteckwu/teckwu_node/teckwu/index.html.ejs.html",
+		"/Users/ongteckwu/teckwu_node/teckwu/package.json",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/kb_war_bundle.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/Guardfile",
+		"/Users/ongteckwu/teckwu_rails/teckwu/features/read_more_less.feature",
+		"/Users/ongteckwu/teckwu_rails/teckwu/Gemfile",
+		"/Users/ongteckwu/teckwu_rails/teckwu/db/migrate/20140726083035_add_blogpost_id_to_comment.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/controllers/kb_war_controller.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/db/test.sqlite3",
+		"/Users/ongteckwu/teckwu_rails/teckwu/db/migrate/20140726075127_create_comments.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/spec/spec_helper.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/spec/models/comment_spec.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/db/migrate/20140726082422_add_blogpost_id_to_comment.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/db/migrate/20140726082336_add_blogpost_id_to_comment.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/kb_war_css/kb_war.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/kb_war/index.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/config/application.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/.rspec",
+		"/Users/ongteckwu/teckwu_rails/teckwu/spec/blog_specs",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/blog/_head.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/kb_war_bundle.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/blog/index.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/controllers/blog_controller.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/models/blogpost.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/blog_library/blog.js",
+		"/Users/ongteckwu/Downloads/Unknown 2/test.html",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/blog_css/blog.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/blog/show.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/blog/quotes.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/db/seeds.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/blog/_navbar.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/blog/new.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/test/helpers/blog_helper_test.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/test/controllers/blog_controller_test.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/helpers/blog_helper.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/bootstraptest_bundle.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/blog_bundle.js",
+		"/Users/ongteckwu/Downloads/BootstrapForWebDesigner_SF/lesson-7.html",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/utilities_css/bootstrap.min.css",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/bootstraptest/quotes.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/teckwu_css/teckwu.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/teckwu/index.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/bootstraptest/index.html.haml",
+		"/Users/ongteckwu/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ongteckwu/Library/Application Support/Sublime Text 3/Packages/User/Ruby Haml.sublime-settings",
+		"/Users/ongteckwu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ongteckwu/Library/Application Support/Sublime Text 3/Packages/User/SideBarGit.sublime-settings",
+		"/Users/ongteckwu/Library/Application Support/Sublime Text 3/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/Users/ongteckwu/teckwu_rails/teckwu/README.rdoc",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/bootstraptest/_head.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/bootstraptest/untitled.html",
+		"/Users/ongteckwu/teckwu_rails/teckwu/bin/spring",
+		"/Users/ongteckwu/teckwu_rails/teckwu/config/initializers/session_store.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/bootstraptest_bundle.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/teckwu_bundle.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/utilities_library/bootstrap.min.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/teckwu_library/teckwu.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/teckwu_bundle.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/bootstraptest_library/bootstraptest.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/lib/generators/teckwu_gen/templates/teckwu_index.html.haml.erb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/controllers/bootstraptest_controller.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/lib/generators/teckwu_gen/teckwu_gen_generator.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/lib/generators/teckwu_gen/templates/teckwu_b.js.erb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/apps/views/bootstraptest/index.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/test_css/test.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/bootstraptest_css/bootstraptest.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/bootstraptest.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/bootstraptest_library/%@name%.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/bootstraptest_css/%@name%.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/#{@name}.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/lib/generators/teckwu_gen/templates/teckwu_js_dir/%@name%.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/lib/generators/teckwu_gen/templates/teckwu_b.css.scss.erb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/lib/generators/teckwu_gen/templates/%@name%_css/%@name%.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/lib/generators/test_generator.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/controllers/test_controller.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/controllers/teckwu_controller.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/application.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/test_library/test.js",
+		"/Users/ongteckwu/teckwu_rails/testx/config/application.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/config/routes.rb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/test/index.html.haml",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/teckwu_css/cloud.css.scss",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/views/teckwu/index2.html.erb",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/javascripts/test_bundle.js",
+		"/Users/ongteckwu/teckwu_rails/teckwu/app/assets/stylesheets/test_bundle.css.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/ongteckwu/qmaze/new/public/javascripts/utility",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console.log",
+			"());",
+			"a.dispatchEvent",
+			"Tile",
+			"new_p",
+			"apply",
+			"module.exports",
+			"express.static",
+			">>",
+			"str",
+			"is-typing",
+			"redis_client.get(\"on",
+			"onlinecount",
+			"chatuser",
+			"join",
+			"zrem",
+			"zadd",
+			"get",
+			"zrem",
+			"consol",
+			"console.log",
+			".chatuser-box ",
+			"h3",
+			"default_port",
+			"#m",
+			"alpha-board",
+			"9E302D",
+			"levelDifficulty",
+			"levelBreaker",
+			"console.log",
+			"currentSpeed",
+			"html",
+			"alphabetCount",
+			"console.log",
+			"alphabetsQueue",
+			"complete",
+			"alphabetsCache",
+			"bootstraptest",
+			"bootstrap",
+			"bootstraptest_index_path",
+			"bootstraptest",
+			"bootstraptes",
+			"bootstraptest",
+			"auto",
+			"hex",
+			"url(../../../",
+			"url(../../",
+			"url(app/assets/",
+			"url(../../../",
+			"url(",
+			"canvas",
+			"#wordcl",
+			"#F0F8FF",
+			"content",
+			"contentbox",
+			"2",
+			"contentbox2",
+			"content",
+			"about",
+			"contentbox",
+			"cloud",
+			"clouds",
+			"4px",
+			";\n",
+			"#f2f9fe",
+			"white",
+			"follow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "new/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040,
+								1040
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "new/views/layout.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "new/views/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "new/public/stylesheets/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "new/public/javascripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "new/public/javascripts/utility/qmazealgo.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2645,
+								2645
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 158.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "new/public/javascripts/utility/create.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 84508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "new/public/javascripts/utility/mazegrids.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								1076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 494.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "new/public/javascripts/utility/tile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "new/public/javascripts/utility/structfactory.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "new/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "qmaze.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"README.rdoc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 370.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
