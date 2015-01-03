@@ -112,7 +112,10 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			var gridheight = Math.floor(canvasheight/mazeGrid.gridsize);
 			var gridwidth = Math.floor(canvaswidth/mazeGrid.gridsize2);
 
-			var line_queue = [];
+			// var line_queue = [];
+			var line = new createjs.Shape();
+			line.graphics.setStrokeStyle(3)
+						 .beginStroke('#222222');
 			for (var i=0; i<mazeGrid.gridsize; i++) {
 				for (var j=0; j<mazeGrid.gridsize2; j++) {
 					var current_grid = mazeGrid.grid[i][j];
@@ -121,9 +124,7 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 					for (var wall in current_grid.walls) {
 						// if property exists and if wall should be existent
 						if (current_grid.walls.hasOwnProperty(wall) && current_grid.walls[wall]) {
-							var line = new createjs.Shape();
-							line.graphics.setStrokeStyle(3)
-									 	 .beginStroke('#222222');
+
 							//left wall rendering
 							if (wall == "L") {
 								line.graphics.moveTo(gridwidth*j, gridheight*i)
@@ -141,8 +142,6 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 								line.graphics.moveTo(gridwidth*j, gridheight*(i+1))
 									.lineTo(gridwidth*(j+1), gridheight*(i+1));
 							}
-							line.graphics.endStroke();
-							line_queue.push(line);
 						}
 
 						// stage.addChild(line);
@@ -152,6 +151,9 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 					//stage.addChild(line);
 				}
 			}
+			line.graphics.endStroke();
+			stage.addChild(line);
+			stage.update();
 
 			return line_queue;
 		}

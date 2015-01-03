@@ -24,17 +24,17 @@ require(['qmazealgo', 'create', 'jquery'],
 			var maze = maze_generator(5, 5, [1,1]);
 
 			var lines = maze_render(maze, stage, max_width, max_height);
-			createjs.Ticker.framerate = 60;
-			console.log(lines.length);
-			var addline = function() {
-				if (lines.length == 0)
-					createjs.Ticker.removeEventListener("tick", addline);		
-				var line = lines.shift();
-				stage.addChild(line);
-				stage.update();
-			};
-			createjs.Ticker.addEventListener("tick", addline);
-			stage.update();
+			// createjs.Ticker.framerate = 500;
+			// console.log(lines.length);
+			// var addline = function() {
+			// 	if (lines.length == 0)
+			// 		createjs.Ticker.removeEventListener("tick", addline);		
+			// 	var line = lines.shift();
+			// 	stage.addChild(line);
+			// 	stage.update();
+			// };
+			// createjs.Ticker.addEventListener("tick", addline);
+			// stage.update();
 			console.log("DONE");
 		});
 	});
