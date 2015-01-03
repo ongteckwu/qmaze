@@ -21,19 +21,8 @@ require(['qmazealgo', 'create', 'jquery'],
 			var maze_generator = qmazealgo.mazeGenerator;
 			var maze_render = qmazealgo.mazeRender;
 			var stage = new createjs.Stage("mazeCanvas");
-			var g = 0
-			var addmaze = function() {
-				if (g == 50)
-					createjs.Ticker.removeEventListener("tick", addmaze);
-				g++;
-				stage.removeAllChildren();
-				var maze = maze_generator(g, g, [1, 1]);
-				maze_render(maze, stage, max_width, max_height);
-				console.log(g, " done");
-			}
-			createjs.Ticker.framerate = 60;
-			createjs.Ticker.addEventListener("tick", addmaze);
-			
+			var maze = maze_generator(10, 10, [1, 1]);
+			maze_render(maze, stage, max_width, max_height);			
 			// createjs.Ticker.framerate = 500;
 			// console.log(lines.length);
 			// var addline = function() {

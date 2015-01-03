@@ -15,6 +15,8 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			var visited = [];
 			var p = [0,0];
 			var endPoint = endPoint;
+			//give end point a reward of 1
+			mazeGrid[endPoint[0]][endPoint[1]].reward = 1;
 
 			stack.push(p);
 			while (visited.length < gridsize*gridsize2)  {
