@@ -24,6 +24,11 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			while (visited.length < gridsize*gridsize2)  {
 				//choose the last tile from stack
 				p = stack[stack.length - 1];
+				//do not get neighbors if it is an endpoint
+				if (p[0] == endPoint[0] && p[1] == endPoint[1]) {
+					visited.push(stack.pop());
+					continue;
+				}
 				//get neighbors
 				var pre_stack = [];
 				var px_array = [];
@@ -47,14 +52,6 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 
 
 				px_array.forEach(function(px) {
-					if (px[0] == endPoint[0] && px[1] == endPoint[1]) {
-						if ((stack.length + visited.length) < (gridsize*gridsize2 - 1))
-							return;
-						else {
-							pre_stack.push(px);
-							return;
-						}
-					}
 					//if not in stack nor visited
 					for (var i in stack) {
 						if (stack[i][0] == px[0] && stack[i][1] == px[1]) {

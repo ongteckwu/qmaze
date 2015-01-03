@@ -26,8 +26,6 @@ require(['qmazealgo', 'create', 'jquery'],
 			//randomize endPoint
 			ep1 = Math.floor(Math.random() * gridsize); 
 			ep2 = Math.floor(Math.random() * gridsize2);
-			ep1 = 1;
-			ep2 = 1;
 			var maze = maze_generator(gridsize, gridsize2, endPoint = [ep1, ep2], startPoint = [0, 0]);
 			maze_render(maze, stage, max_width, max_height);			
 			// createjs.Ticker.framerate = 500;
