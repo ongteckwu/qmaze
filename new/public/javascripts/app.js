@@ -21,7 +21,14 @@ require(['qmazealgo', 'create', 'jquery'],
 			var maze_generator = qmazealgo.mazeGenerator;
 			var maze_render = qmazealgo.mazeRender;
 			var stage = new createjs.Stage("mazeCanvas");
-			var maze = maze_generator(10, 10, [1, 1]);
+			var gridsize = 10;
+			var gridsize2 = 10;
+			//randomize endPoint
+			ep1 = Math.floor(Math.random() * gridsize); 
+			ep2 = Math.floor(Math.random() * gridsize2);
+			ep1 = 1;
+			ep2 = 1;
+			var maze = maze_generator(gridsize, gridsize2, endPoint = [ep1, ep2], startPoint = [0, 0]);
 			maze_render(maze, stage, max_width, max_height);			
 			// createjs.Ticker.framerate = 500;
 			// console.log(lines.length);

@@ -1,6 +1,6 @@
 define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './create'],
 	function(typechecker, assert, shuffle, grids, Tile, create) {
-		var mazeGenerator = function(gridsize, gridsize2, endPoint, rewardGrid) {
+		var mazeGenerator = function(gridsize, gridsize2, endPoint, startPoint, rewardGrid) {
 			//reward grid must have the same size
 			// assert((gridsize == rewardGrid.gridsize && 
 			// 			gridsize2 == rewardGrid.gridsize2), "Grid Sizes have to be the same!!!");
@@ -13,10 +13,12 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			//stack & visited list
 			var stack = [];
 			var visited = [];
-			var p = [0,0];
+			var p = startPoint;
+			mazeGrid.startPoint = startPoint;
 			var endPoint = endPoint;
+			mazeGrid.endPoint = endPoint;
 			//give end point a reward of 1
-			mazeGrid[endPoint[0]][endPoint[1]].reward = 1;
+			mazeGrid.grid[endPoint[0]][endPoint[1]].reward = 1;
 
 			stack.push(p);
 			while (visited.length < gridsize*gridsize2)  {
@@ -123,7 +125,20 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			for (var i=0; i<mazeGrid.gridsize; i++) {
 				for (var j=0; j<mazeGrid.gridsize2; j++) {
 					var current_grid = mazeGrid.grid[i][j];
-					// render q-values	
+					// render rewards
+					if (i == mazeGrid.endPoint[0] && j == mazeGrid.endPoint[1]) {
+	 					var square = new createjs.Shape();
+						square.graphics.beginFill("LightGreen")
+									   .drawRect(gridwidth*j, gridheight*i, gridwidth, gridheight);
+						stage.addChild(square);
+					}
+					else if (i == mazeGrid.startPoint[0] && j == mazeGrid.startPoint[1]) {
+	 					var square = new createjs.Shape();
+						square.graphics.beginFill("LightBlue")
+									   .drawRect(gridwidth*j, gridheight*i, gridwidth, gridheight);
+						stage.addChild(square);
+					}
+					// render q-values
 					// render walls
 					for (var wall in current_grid.walls) {
 						// if property exists and if wall should be existent
