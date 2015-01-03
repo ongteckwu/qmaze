@@ -107,10 +107,12 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 
 			return mazeGrid;
 		}
-
+		var roundTo2 = function(number) {
+			return +(Math.round(number * 100)/100);
+		}
 		var mazeRender = function(mazeGrid, stage, canvaswidth, canvasheight) {
-			var gridheight = Math.floor(canvasheight/mazeGrid.gridsize);
-			var gridwidth = Math.floor(canvaswidth/mazeGrid.gridsize2);
+			var gridheight = roundTo2(canvasheight/mazeGrid.gridsize);
+			var gridwidth = roundTo2(canvaswidth/mazeGrid.gridsize2);
 
 			// var line_queue = [];
 			var line = new createjs.Shape();
