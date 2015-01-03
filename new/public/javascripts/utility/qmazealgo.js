@@ -155,7 +155,7 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			stage.addChild(line);
 			stage.update();
 
-			return line_queue;
+			// return line_queue;
 		}
 
 		return {"mazeGenerator" : mazeGenerator,
