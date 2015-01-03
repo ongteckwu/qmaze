@@ -114,19 +114,17 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			var color = ['#eeeeee', '#111111', '#222222', '#333333', '#444444', '#555555', '#666666', '#777777', 
 							'#888888', '#eeeeee', "#efefef"];
 			var line_queue = [];
-			test_no_walls = 0;
 			for (var i=0; i<mazeGrid.gridsize; i++) {
 				for (var j=0; j<mazeGrid.gridsize2; j++) {
 					var current_grid = mazeGrid.grid[i][j];
 					// render q-values	
 					// render walls
 					for (var wall in current_grid.walls) {
-						var line = new createjs.Shape();
-						line.graphics.setStrokeStyle(3)
-									 .beginStroke(color[1]);
 						// if property exists and if wall should be existent
 						if (current_grid.walls.hasOwnProperty(wall) && current_grid.walls[wall]) {
-							test_no_walls++;
+							var line = new createjs.Shape();
+							line.graphics.setStrokeStyle(3)
+									 	 .beginStroke(color[1]);
 							//left wall rendering
 							if (wall == "L") {
 								line.graphics.moveTo(gridwidth*j, gridheight*i)
@@ -144,9 +142,10 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 								line.graphics.moveTo(gridwidth*j, gridheight*(i+1))
 									.lineTo(gridwidth*(j+1), gridheight*(i+1));
 							}
+							line.graphics.endStroke();
+							line_queue.push(line);
 						}
-						line.graphics.endStroke();
-						line_queue.push(line);
+
 						// stage.addChild(line);
 						// stage.update();
 					}

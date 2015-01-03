@@ -24,8 +24,9 @@ require(['qmazealgo', 'create', 'jquery'],
 			var maze = maze_generator(5, 5, [1,1]);
 
 			var lines = maze_render(maze, stage, max_width, max_height);
-			// createjs.Ticker.framerate = 60;
+			createjs.Ticker.framerate = 60;
 			var addline = function() {
+				console.log(lines.length);
 				if (lines.length == 0)
 					createjs.Ticker.removeEventListener("tick", addline);		
 				var line = lines.shift();
