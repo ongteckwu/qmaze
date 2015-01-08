@@ -18,6 +18,9 @@ define(['./structfactory', './typechecker', './assert', './tile'],
 			this.gridsize = gridsize;
 			this.gridsize2 = gridsize2;
 			this.gridObj = gridObj;
+			this.startPoint = undefined;
+			this.endPoint = undefined; // for maze creation
+			this.endPoints = undefined;
 
 			//create grid of row-size g1 column-size g2 filled with class Tile
 			this.grid = function(g1, g2, self) {
@@ -41,6 +44,16 @@ define(['./structfactory', './typechecker', './assert', './tile'],
 				return grid;
 			}(gridsize, gridsize2, this);
 
+		}
+
+		Grid.prototype.isEndPoint = function(x, y) {
+			var endPoints = this.endPoints;
+			for (var i in endPoints) {
+				if (endPoints[i][0] == x && endPoints[i][1] == y) {
+					return true
+				}
+			}
+			return false;
 		}
 
 		// var mazeGrid = function(gridsize, gridsize2) {

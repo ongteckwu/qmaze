@@ -8,21 +8,21 @@ var StructFactory = function(names) {
 		}
 	}
 
-	constructor.prototype.add = function(another) {
-		var newstruct = new constructor();
-		for (var i=0; i<n; i++) {
-			newstruct[names[i]] = this[names[i]] + another[names[i]];
-		}
-		return newstruct;
-	}
+	// constructor.prototype.add = function(another) {
+	// 	var newstruct = new constructor();
+	// 	for (var i=0; i<n; i++) {
+	// 		newstruct[names[i]] = this[names[i]] + another[names[i]];
+	// 	}
+	// 	return newstruct;
+	// }
 
-	constructor.prototype.compare = function(another) {
-		for (var i=0; i<n; i++) {
-			if (this[names[i]] != another[names[i]]) return false;
-		}
+	// constructor.prototype.compare = function(another) {
+	// 	for (var i=0; i<n; i++) {
+	// 		if (this[names[i]] != another[names[i]]) return false;
+	// 	}
 
-		return true;
-	}
+	// 	return true;
+	// }
 	return constructor;
 }
 
