@@ -81,12 +81,13 @@ define(['./shuffle', './create', './roundto2'],
 
 		}
 
-		var QLearning = function(agent, grid, alpha, k_random, e) {
+		var QLearning = function(agent, grid, alpha, k_random, discount, e) {
 			this.grid = grid;
 			this.agent = agent;
 			this.alpha = alpha;
 			this.k = k_random;
 			this.e = e;
+			this.discount = discount;
 			createjs.EventDispatcher.initialize(this);
 		}
 
@@ -168,7 +169,7 @@ define(['./shuffle', './create', './roundto2'],
 			max_qvalue = this.getMaxQsa(next_tile);
 
 			qvalue[action_to_take] = ((1-this.alpha)*qvalue[action_to_take] + 
-											this.alpha*(next_tile.reward + max_qvalue));
+											this.alpha*(next_tile.reward + this.discount*max_qvalue));
 			next_tile.visited++; //visited once again
 			//update qvalue of current tile
 		}
