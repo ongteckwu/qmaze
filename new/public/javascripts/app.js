@@ -24,20 +24,20 @@ require(['qmazealgo', 'qlearning', 'create', 'jquery'],
 			var maze_generator = qmazealgo.mazeGenerator;
 			var maze_render = qmazealgo.mazeRender;
 			var stage = new createjs.Stage("mazeCanvas");
-			var gridsize = 20;
-			var gridsize2 = 20;
+			var gridsize = 10;
+			var gridsize2 = 10;
 			//randomize endPoint
 			var endPoints = [];
-			for (var i=0; i<3; i++) {
-				ep1 = Math.floor(Math.random() * 3*gridsize/5 + 2*gridsize/5); 
-				ep2 = Math.floor(Math.random() * 3*gridsize2/5 + 2*gridsize2/5);
+			for (var i=0; i<6; i++) {
+				ep1 = Math.floor(Math.random() * 4*gridsize/5 + gridsize/5); 
+				ep2 = Math.floor(Math.random() * 4*gridsize2/5 + gridsize2/5);
 				endPoints.push([ep1, ep2])
 			}
 			startPoint = [0,0];
 			var maze = maze_generator(gridsize, gridsize2, endPoints = endPoints, startPoint = startPoint);
 			maze_render(maze, stage, max_width, max_height);
 			var agent = new qlearning.QAgent(startPoint, maze, stage, gridsize, gridsize2, max_width, max_height, endPoints);
-			var qlearner = new qlearning.QLearning(agent, maze, 0.1, 0.1);
+			var qlearner = new qlearning.QLearning(agent, maze, alpha = 0.05, k_random = 0.9, e = 0.01);
 			createjs.Ticker.fps = 120;
 			var thisfunc = function() {
 				if (agent.render_queue.length == 0) 

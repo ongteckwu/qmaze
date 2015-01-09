@@ -81,11 +81,12 @@ define(['./shuffle', './create', './roundto2'],
 
 		}
 
-		var QLearning = function(agent, grid, alpha, k_random) {
+		var QLearning = function(agent, grid, alpha, k_random, e) {
 			this.grid = grid;
 			this.agent = agent;
 			this.alpha = alpha;
 			this.k = k_random;
+			this.e = e;
 			createjs.EventDispatcher.initialize(this);
 		}
 
@@ -94,12 +95,11 @@ define(['./shuffle', './create', './roundto2'],
 			var y = this.agent.y;
 			var tile = this.grid.grid[y][x];
 			var qvalues = tile.qvalues;
-			var e = 0.01;
 
 			var max_qvalue = [null, -10000];
 			var random_value = Math.random();
 			var output = undefined;
-			if (random_value < e) {
+			if (random_value < this.e) {
 				//get a random direction
 				var shuffled_dirs = shuffle(Object.keys(qvalues)); 
 				for (var i in shuffled_dirs) {
@@ -146,7 +146,7 @@ define(['./shuffle', './create', './roundto2'],
 
 
 			for (var dir in qvalues) {
-				var qvalue_k = qvalues[dir];
+				var qvalue_k = this.explorationF(qvalues[dir], tile.visited);
 				if (max_qvalue < qvalue_k) {
 					max_qvalue = qvalue_k;
 				}
@@ -169,7 +169,6 @@ define(['./shuffle', './create', './roundto2'],
 
 			qvalue[action_to_take] = ((1-this.alpha)*qvalue[action_to_take] + 
 											this.alpha*(next_tile.reward + max_qvalue));
-
 			next_tile.visited++; //visited once again
 			//update qvalue of current tile
 		}
@@ -178,7 +177,7 @@ define(['./shuffle', './create', './roundto2'],
 		QLearning.prototype.run = function() {
 			//runs the q-learning algorithm
 			var n = 0;
-			while(n <= 100000) {
+			while(n <= 50000) {
 				n++;
 				action_to_take = this.policyExtraction();
 				//qlearn
@@ -186,7 +185,7 @@ define(['./shuffle', './create', './roundto2'],
 				//move agent to next tile
 				this.agent.move(action_to_take);
 				//updates render queue
-				if (n >= 1) {
+				if (greaterThanI(n)) {
 					var qvalues = this.grid.grid[this.agent.x][this.agent.y].qvalues;
 					var agent_coords = [this.agent.x, this.agent.y, action_to_take];
 					this.agent.render_queue.push(agent_coords);
@@ -197,11 +196,17 @@ define(['./shuffle', './create', './roundto2'],
 				if (this.grid.isEndPoint(this.agent.x, this.agent.y)) {
 					this.agent.restart();
 					var agent_coords = [this.agent.x, this.agent.y];
-					if (n >= 1) {
+					if (greaterThanI(n)) {
 						this.agent.render_queue.push(agent_coords);
 					}
 				}
 			}
+		}
+
+		var greaterThanI = function(n) {
+			//change i here
+			i = 49000;
+			return n >= i;
 		}
 
 

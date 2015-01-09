@@ -19,7 +19,7 @@ define(['./structfactory', './typechecker', './assert', './tile'],
 			this.gridsize2 = gridsize2;
 			this.gridObj = gridObj;
 			this.startPoint = undefined;
-			this.endPoint = undefined; // for maze creation
+			this.endPoint = undefined; // first end point
 			this.endPoints = undefined;
 
 			//create grid of row-size g1 column-size g2 filled with class Tile

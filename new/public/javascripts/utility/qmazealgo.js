@@ -15,9 +15,8 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 			var visited = [];
 			var p = startPoint;
 			mazeGrid.startPoint = startPoint;
-			var endPoint = endPoints[0];
+			var endPoint = endPoints[0]; // first end point
 			var endPoints = endPoints;
-			//for maze creation purposes
 			mazeGrid.endPoint = endPoint;
 			mazeGrid.endPoints = endPoints;
 			//give end point a reward of 1
@@ -35,7 +34,7 @@ define(['./typechecker', './assert', './shuffle', './mazegrids', './tile', './cr
 				//choose the last tile from stack
 				p = stack[stack.length - 1];
 				//do not get neighbors if it is an endpoint
-				if (p[0] == endPoint[0] && p[1] == endPoint[1]) {
+				if (mazeGrid.isEndPoint(p[0], p[1])) {
 					visited.push(stack.pop());
 					continue;
 				}
